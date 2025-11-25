@@ -1,0 +1,17 @@
+# Node
+node_modules
+npm-debug.log
+*.log
+
+# Mac cruft
+.DS_Store
+
+# Terraform (we'll add this later)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Docker
+**/Dockerfile
+**/.dockerignore
+
