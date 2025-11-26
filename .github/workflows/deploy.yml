@@ -22,11 +22,6 @@ jobs:
           script: |
             set -e
 
-            # Ensure repo exists
-            if [ ! -d "~/ics-digi-portal/.git" ]; then
-              git clone https://github.com/AzharHotee/ics-digi-portal.git ~/ics-digi-portal
-            fi
-
             cd ~/ics-digi-portal
             git pull origin main
 
